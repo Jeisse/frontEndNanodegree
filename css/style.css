@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+
+/* Default Styles 
+--------------------------------------------------------------------*/
+* { margin:0;	padding:0;}
+html {height: 100%;}
+button { border:0; background: transparent;}
