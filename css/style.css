@@ -15,6 +15,12 @@ body {
 	width:950px ;
 	background: transparent;
 	padding-top: 50px;
+	font: larger sans-serif; 
+	/*font-family: Utsaah;*/
+	font-family: "Gill Sans MT", "Gill Sans", GillSans, Arial, Helvetica, sans-serif;
+	font-stretch: ultra-condensed;
+	color: #bcbbbb;
+	font-size: 26px;
 }
 
 header {
