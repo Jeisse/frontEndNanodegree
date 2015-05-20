@@ -2,54 +2,24 @@
 
 /* Default Styles 
 --------------------------------------------------------------------*/
-* { 
-	margin-top: 20px
-	webkit-box-sizing: border-box;
-	moz-box-sizing: border-box;
-	ms-box-sizing:border-box;
-	box-sizing:border-box;
-}
-html {height: 100%;}
+
 body { 
 	margin: 0 auto; 
 	width:950px ;
 	background: transparent;
 	padding-top: 50px;
-	font: larger sans-serif; 
-	/*font-family: Utsaah;*/
-	font-family: "Gill Sans MT", "Gill Sans", GillSans, Arial, Helvetica, sans-serif;
-	font-stretch: ultra-condensed;
 	color: #bcbbbb;
-	font-size: 26px;
+	font-family: 'Lato', sans-serif;
 }
-
-header {
-    display: -webkit-flex;
-    display: flex;
-    padding-bottom: 10px;
+.img-whiteBorder{
+	padding: 4px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
-.imgHeader{
-	width: 70%;
-	border-bottom: solid 4px #BCBBBB;
-}
-.nameHeader{
-	width: 30%;
-	border-bottom: solid 4px #BCBBBB;
-}
-.image{
-	width: 100%
-}
-.image img{
-	width: 100%
-}
-.featureLine{
-	display: -webkit-flex;
-    display: flex;
-    width: 100%;
-}
-.img275{
-	padding: 5px 10px 5px 0px;
-}
-.img275 img{
-	width: 100%;
+h3{
+	color: #747704;
 }
