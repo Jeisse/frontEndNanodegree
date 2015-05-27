@@ -1,25 +1,19 @@
-@CHARSET "UTF-8";
-
-/* Default Styles 
---------------------------------------------------------------------*/
-
-body { 
-	margin: 0 auto; 
-	width:950px ;
-	background: transparent;
-	padding-top: 50px;
-	color: #bcbbbb;
+body{
 	font-family: 'Lato', sans-serif;
-}
-.img-whiteBorder{
-	padding: 4px;
-	background-color: #FFF;
-	border: 1px solid #CCC;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-h3{
 	color: #747704;
+	font-weight:300;
+}
+
+.text-muted{
+	color: #BCBBBB;
+}
+.text-thin{
+	font-weight: 100;
+}
+
+.title-super{
+	font-size:60px; 
+}
+.title-logo{
+	margin-top:20px; 
 }
