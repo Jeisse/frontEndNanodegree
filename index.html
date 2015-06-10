@@ -8,6 +8,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 </head>
 <body>
 <div class="container">
@@ -17,42 +20,66 @@
 		</div>
 		<div class="col-md-6 text-right text-uppercase">
 			<h1 class="title-super text-thin">Jeisse Rocha</h1>
-			<h4>UI/UX Engineer</h4>
+			<h4><strong>UI/UX Engineer</strong></h4>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<hr>
+			<hr class="hrtop">
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<img class="img-responsive" src="http://placehold.it/1200x450" alt="big img">
+			<img class="img-responsive img-thumbnail" src="img/bigimage.png" data-toggle="modal" data-target="#aboutmeimg" alt="Picture talking about me. What I like, think and invest">
 		</div>
 	</div>
-	<div class="row">
+	<div class="row"> 
 		<div class="col-md-12">
 			<h2 class="text-muted">Feature Work</h2>
 		</div>
 	</div>
 	<div class="row text-center">
 		<div class="col-md-4">
-			<img class="img-responsive" src="http://placehold.it/350x150">
-			<h3 class="text-uppercase">Terra Tv</h3>
+			<img class="img-responsive img-thumbnail" src="http://placehold.it/350x150" >
+			<h3 class="text-uppercase"><strong>EasiLocks</strong></h3>
+			<p>http://easilocks.com/</p>
+		</div>
+		<div class="col-md-4">
+			<img class="img-responsive img-thumbnail" src="img/Logo-TerraTV-360x220.png">
+			<h3 class="text-uppercase"><strong>Terra Tv</strong></h3>
 			<p>http://terratv.terra.com.br/</p>
 		</div>
 		<div class="col-md-4">
-			<img class="img-responsive" src="http://placehold.it/350x150">
-			<h3 class="text-uppercase">Terra Tv</h3>
-			<p>http://terratv.terra.com.br/</p>
-		</div>
-		<div class="col-md-4">
-			<img class="img-responsive" src="http://placehold.it/350x150">
-			<h3 class="text-uppercase">Terra Tv</h3>
-			<p>http://terratv.terra.com.br/</p>
+			<img class="img-responsive img-thumbnail" src="http://placehold.it/350x150">
+			<h3 class="text-uppercase"><strong>FlexMaint</strong></h3>
+			<p>http://flexmaint.com/</p>
 		</div>
 	</div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="aboutmeimg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="myModalLabel">How I'm</h2>
+      </div>
+      <div class="modal-body">
+      	<!-- image below: 580x120 -->
+      	<img class="img-responsive" src="img/bigimage.png" alt="Picture talking about me. What I like, think and invest">
+        <article>
+        	<h4>ddd</h4>
+        	<p class="text-muted">Brief explanation about me.</p>
+        </article>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
+
 </html>
