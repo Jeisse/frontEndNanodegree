@@ -1,0 +1,17 @@
+
+
+Read:
+
+Intro to HTML and CSS
+
+Article on CSS selectors	- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Article on flexbox	- https://css-tricks.com/how-css-selectors-work/
+
+Mozilla Developer Resources:
+
+1) HTML Element Reference - https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+2) HTML Attribute Reference - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+
+3) CSS Reference - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
